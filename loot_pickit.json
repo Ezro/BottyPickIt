@@ -1,0 +1,29 @@
+[{
+        "baseItem": "ring",
+        "quality": "rare",
+        "pickUp": true,
+        "id": true,
+        "keepIf": [
+            "fcr=10 & (str >= 20 | str+dex >= 15 & (maxHp >= 30 | maxMana >= 60) | maxHp >= 30 & maxMana >= 60)"
+        ]
+    },
+    {
+        "baseItem": "tiara",
+        "quality": "rare",
+        "pickUp": true,
+        "id": true,
+        "keepIf": [
+            "fcr=10 & (str >= 20 | str+dex >= 15 & (maxHp >= 30 | maxMana >= 60) | maxHp >= 30 & maxMana >= 60)"
+        ]
+    },
+    {
+        "baseItem": "sacred armor",
+        "quality": "unique",
+        "pickUp": true,
+        "id": true,
+        "keepIf": [
+            "name = tyrael's might & enhancedDefense = 150 & damageToDemons = 100 & str = 30 & allRes = 30",
+            "name = templar's might & enhancedDefense = 220 & defenseVsMissile = 300 & str = 15 & vit = 15 & fhr = 20 & maxStam = 50 & offensiveAuras = 2"
+        ]
+    }
+]

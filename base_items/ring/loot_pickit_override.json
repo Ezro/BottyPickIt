@@ -1,0 +1,16 @@
+[{
+    "quality": "rare",
+    "pickUp": true,
+    "id": true,
+    "keepIf": [
+        "fcr=10",
+        "lifeLeech > 4 & manaLeech > 4"
+    ]
+}, {
+    "quality": "magic",
+    "pickUp": true,
+    "id": true,
+    "keepIf": [
+        "lifeLeech > 4 & manaLeech > 4"
+    ]
+}]

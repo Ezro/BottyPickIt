@@ -1,0 +1,8 @@
+[{
+    "quality": "rare",
+    "pickUp": true,
+    "id": true,
+    "keepIf": [
+        "fcr=10"
+    ]
+}]
