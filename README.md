@@ -140,3 +140,5 @@ class D2Item:
     chanceToCast: list[ChanceToCast] = None
     charges: list[Charge] = None
 ```
+## Considerations
+The first aspect of this for replacing the TemplateFinder for base_items may also be moot since the OCR branch should be able to detect item text (i.e., base_item) as well as the color (i.e., quality)
